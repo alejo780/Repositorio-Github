@@ -4,7 +4,7 @@ public class Exponencial{
     int m=6;
     int S=0;
     for(int i=1; i<=m; i++){
-      S += n;
+      S *= n;
     }
     System.out.println(S);
   }
