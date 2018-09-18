@@ -1,0 +1,8 @@
+7.5 Ejercicios propuestos
+1. Realice una aplicación que permita capturar 10 números por entrada estándar y los almacene en un archivo de texto
+plano.
+2. Realice una aplicación que permita leer un archivo
+que contenga números y calcule el promedio de dichos
+números.
+3. Realice una aplicación que permita leer y escribir múltiples
+objetos serializables en un archivo.

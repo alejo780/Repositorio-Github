@@ -1,0 +1,10 @@
+Escritura en archivo = 3
+Escritura en archivo = 4
+Escritura en archivo = 90
+Escritura en archivo = 45
+Escritura en archivo = 67
+Escritura en archivo = 4
+Escritura en archivo = 1
+Escritura en archivo = 32
+Escritura en archivo = 67
+Escritura en archivo = 23
