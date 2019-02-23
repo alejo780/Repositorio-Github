@@ -1,0 +1,29 @@
+-- 
+-- Base de datos: 'dbtest'
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Estructura de tabla para la tabla 'producto'
+-- 
+
+CREATE TABLE producto (
+  p_id varchar(6) NOT NULL,
+  p_nombre varchar(21) NOT NULL,
+  p_precio float NOT NULL default '0',
+  p_cantidad int(20) NOT NULL default '0',
+  PRIMARY KEY  (p_id)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- 
+-- Volcar la base de datos para la tabla 'producto'
+-- 
+
+INSERT INTO producto VALUES ('P9-U7J', 'Producto 1', 100, 0);
+INSERT INTO producto VALUES ('KO-8HY', 'Producto 2', 56.9, 0);
+INSERT INTO producto VALUES ('UJ-9KK', 'Producto 3', 120.5, 0);
+INSERT INTO producto VALUES ('KK-77G', 'Producto 4', 23.4, 0);
+INSERT INTO producto VALUES ('KJ-886', 'Producto 5', 88, 0);
+INSERT INTO producto VALUES ('PP-99P', 'Producto 6', 78.9, 0);
+INSERT INTO producto VALUES ('GH-77U', 'Producto 7', 99.9, 0);
