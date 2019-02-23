@@ -59,7 +59,6 @@ public class Disparo {
                 ((EstadoBarco)matriz[pcx][pcy]).Destruido();
                 System.out.println(pcx+" "+pcy);
                 aciertospc++;
-                
             } else if ((int)matriz[pcx][pcy] == 0) {
                 matriz[pcx][pcy] = 1;
                 
